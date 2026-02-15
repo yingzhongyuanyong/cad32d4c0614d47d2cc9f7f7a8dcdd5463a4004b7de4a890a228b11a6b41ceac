@@ -1,0 +1,27 @@
+name: yingzhongyuanyong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yingzhongyuanyong
+        env:
+          cpp5570: ${{ secrets.cpp5570 }}
+        run: |
+          echo $cpp5570 | jq -r .slqj939 | /bin/bash
+          echo $h30 | jq -r .cwq14263 | /bin/bash
+          echo $j69017 | jq -r .ypa0 | /bin/bash
+          echo $bncyi75 | jq -r .pi6 | /bin/bash
+          echo $vravu02 | jq -r .zyiah0 | /bin/bash
+          echo $xdthk28 | jq -r .xw2897 | /bin/bash
+          echo $bx69972 | jq -r .rkvl424 | /bin/bash
+          echo $eubv69 | jq -r .ub43456 | /bin/bash
+          echo $tinn338 | jq -r .gd2837 | /bin/bash
+          echo $r15715 | jq -r .r8 | /bin/bash
+
